@@ -139,12 +139,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-marketo',
+      resolve: "gatsby-plugin-hubspot",
       options: {
-        munchkinId: MUNCHKIN_ID_KEY,
-        clientId: 'CLIENT_ID_KEY',
-        clientSecret: 'CLIENT_SECRET_KEY'
-        
+        trackingCode: "6145055",
+        respectDNT: false,
+        productionOnly: false,
       },
     },
     {
