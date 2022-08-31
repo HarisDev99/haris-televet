@@ -5,7 +5,7 @@ const HubspotFormsHook = ({
 }) => {
     const { allHubspotForm } = useStaticQuery(graphql`
         query hubspotFormQuery {
-            allMarketoForm {
+            allHubspotForm {
                 nodes {
                     name
                     guid
