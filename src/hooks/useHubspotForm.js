@@ -1,10 +1,10 @@
 import { useStaticQuery, graphql } from 'gatsby'
 
-const MarketoFormsHook = ({
+const HubspotFormsHook = ({
     id
 }) => {
-    const { allMarketoForm } = useStaticQuery(graphql`
-        query marketoFormQuery {
+    const { allHubspotForm } = useStaticQuery(graphql`
+        query hubspotFormQuery {
             allMarketoForm {
                 nodes {
                     name
@@ -40,4 +40,4 @@ const MarketoFormsHook = ({
     return payload
 }
 
-export default MarketoFormsHook
+export default HubspotFormsHook
