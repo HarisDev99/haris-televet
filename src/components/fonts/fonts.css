@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Linear Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Linear Sans'), 
+    url("LinearSans-Regular.woff2") format("woff2"),
+    url("LinearSans-Regular.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Linear Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Linear Sans'), 
+    url("LinearSans-Semibold.woff2") format("woff2"),
+    url("LinearSans-Semibold.woff") format("woff");
+    font-display: swap;
+}

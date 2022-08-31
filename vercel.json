@@ -1,0 +1,254 @@
+{
+  "redirects": [
+    {
+      "source": "/Hills-Partnership",
+      "destination": "/hills-partnership",
+      "permanent": true
+    },
+    {
+      "source": "/community",
+      "destination": "https://join.slack.com/t/televetcommunity/shared_invite/zt-cvxv1hhy-SWk0GFN1ExEi8_NvT~kDVg",
+      "permanent": true
+    },
+    {
+      "source": "/fax",
+      "destination": "/virtual-vet?fax",
+      "permanent": false
+    }, {
+      "source": "/future-proof",
+      "destination": "/innovation?utm_source=owned&utm_medium=whitepaper&utm_campaign=future-proof",
+      "permanent": false
+    }, {
+      "source": "/curbside",
+      "destination": "/solutions/curbside",
+      "permanent": true
+    }, {
+      "source": "/telemedicine",
+      "destination": "/solutions/telemedicine",
+      "permanent": true
+    },{
+      "source": "/solutions-payment-processing",
+      "destination": "/solutions/payment-processing",
+      "permanent": true
+  }, {
+      "source": "/blog/telemedicine-what-your-veterinarian-can-and-cant-do",
+      "destination": "/solutions/telemedicine",
+      "permanent": true
+  }, {
+      "source": "/blog/boost-team-efficiency-and-revenue-with-automated-reminders-and-workflows-copy",
+      "destination": "/solutions/service-reminder",
+      "permanent": true
+  }, {
+      "source": "/resources2",
+      "destination": "/resources",
+      "permanent": true
+  }, {
+      "source": "/solutions-scheduling",
+      "destination": "/solutions/scheduling",
+      "permanent": true
+  }, {
+      "source": "/chat2",
+      "destination": "/solutions/phone-calls",
+      "permanent": true
+  }, {
+      "source": "/integrations/rxworks",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/patient-check-in-copy",
+      "destination": "/solutions/patient-check-in",
+      "permanent": true
+  }, {
+      "source": "/owners2",
+      "destination": "/owners",
+      "permanent": true
+  }, {
+      "source": "/integrations/via",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/contact",
+      "destination": "/sign-up",
+      "permanent": true
+  }, {
+      "source": "/integrations/string-soft",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/solutions-call-traffic",
+      "destination": "/solutions/phone-calls",
+      "permanent": true
+  }, {
+      "source": "/refer-a-vet",
+      "destination": "/tell-a-vet",
+      "permanent": true
+  }, {
+      "source": "/future",
+      "destination": "/future-proof",
+      "permanent": true
+  }, {
+      "source": "/integrations/hippo-manager",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/solutions/solutions-payment-processing",
+      "destination": "/solutions/payment-processing",
+      "permanent": true
+  }, {
+      "source": "/owners1",
+      "destination": "/owners",
+      "permanent": true
+  }, {
+      "source": "/solutions-forms",
+      "destination": "/solutions/forms",
+      "permanent": true
+  }, {
+      "source": "/curbside/",
+      "destination": "/solutions/curbside",
+      "permanent": true
+  }, {
+      "source": "/refer-a-vet/",
+      "destination": "/tell-a-vet",
+      "permanent": true
+  }, {
+      "source": "/integrations/intravet",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/integrations/embrace",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+      "source": "/telemedicine-copy",
+      "destination": "/solutions/telemedicine",
+      "permanent": true
+  }, {
+      "source": "/integrations/vtech",
+      "destination": "/integrations",
+      "permanent": true
+  }, {
+    "source": "/vetforum",
+    "destination": "/",
+    "permanent": true
+  }, {
+    "source": "/wvc",
+    "destination": "http://gettelevet-6145055.hs-sites.com/wvc-2022-demo-promo",
+    "permanent": true
+  }, {
+    "source": "/wvc2022",
+    "destination": "http://televet.com/televet_bi",
+    "permanent": false
+  }
+  ],
+  "headers": [
+    {
+      "source": "/(.*.js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, cache"
+        }
+      ]
+    },
+    {
+      "source": "/(.*.css)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, cache"
+        }
+      ]
+    },
+    {
+      "source": "/(.*.html)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/public/page-data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/public/page-data.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/public/app-data.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/public/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "sameorigin"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": ""
+        },
+        {
+          "key": "Feature-Policy",
+          "value": "geolocation 'none'; camera 'none'; microphone 'none'"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), microphone=(), camera=()"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, no-cache"
+        }
+      ]
+    }
+  ]
+}
