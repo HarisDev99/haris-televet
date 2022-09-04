@@ -9,7 +9,7 @@ module.exports = {
     title: `TeleVet: Veterinary Telemedicine Solutions for Pets`,
     description: `Simplified veterinary telemedicine for pets. Provide care, generate revenue, conserve time. VCPR compliant, seamlessly integrate with your current PIMS.`,
     author: `@getTeleVet`,
-    siteUrl: `${process.env.GATSBY_SITE_URL || `https://televet.com`}`,
+    siteUrl: `${process.env.GATSBY_SITE_URL || `http://televet.local/`}`,
     banner: `src/images/televet-banner.png`,
     fbId: `1971203419872995`,
   },
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        url: 'https://televet.espercreations.com/graphql',
+        url: 'http://televet.local/graphql',
         schema: {
           requestConcurrency: 25,
           perPage: 25,
@@ -96,8 +96,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://televet.com',
-        sitemap: 'https://televet.com/sitemap.xml',
+        host: 'http://televet.local/',
+        sitemap: 'http://televet.local/sitemap.xml',
         policy: [{
           userAgent: '*',
           disallow: [
@@ -138,14 +138,14 @@ module.exports = {
         pixelId: '275472343571096',
       },
     },
-    {
-      resolve: "gatsby-plugin-hubspot",
-      options: {
-        trackingCode: "6145055",
-        respectDNT: false,
-        productionOnly: false,
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-hubspot",
+    //   options: {
+    //     trackingCode: "6145055",
+    //     respectDNT: false,
+    //     productionOnly: false,
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-local-search',
       options: {
